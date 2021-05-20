@@ -1,0 +1,31 @@
+{
+  "name": "the-blogger",
+  "version": "1.0.0",
+  "description": "Hello welcome to the blogger, an application that allow users to post amazing blog stories about anything. Come sign up or if a returning user, welcome and start writing your stories today.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoxng/the-blogger.git"
+  },
+  "author": "Bao Xiong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baoxng/the-blogger/issues"
+  },
+  "homepage": "https://github.com/baoxng/the-blogger#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  }
+}
